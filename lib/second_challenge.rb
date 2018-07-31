@@ -7,7 +7,9 @@ def second_challenge
   }
 
   #code your solution here!
-
-  
+  food = []
+  groceries.each {|k,v|
+   food << v}
+  food.join(", ").split(", ")
 
 end
