@@ -7,7 +7,7 @@ def second_challenge
   }
 
   #code your solution here!
-
+  groceries.values.flatten    ## release each array and make all value in a same array
   
 
 end
